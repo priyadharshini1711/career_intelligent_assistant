@@ -1,0 +1,41 @@
+Job Title: Senior Backend Engineer, Payments
+Company: Halcyon Pay
+Location: Remote (India)
+
+ABOUT US
+Halcyon Pay processes recurring payments for subscription businesses across
+Asia-Pacific. We move about $400M a year. The payments team is nine engineers.
+
+THE ROLE
+You will own services on the money path. That means correctness first,
+latency second, and a low tolerance for surprises in production.
+
+RESPONSIBILITIES
+- Design and build Python services that handle payment authorisation, capture
+  and reconciliation.
+- Model financial data in PostgreSQL with a strong bias toward correctness and
+  auditability.
+- Improve API latency and throughput on endpoints under sustained load.
+- Write thorough tests; payments code does not ship without them.
+- Participate in design reviews and on-call for the services you own.
+- Work with compliance on audit requirements.
+
+REQUIREMENTS
+- 4+ years of backend engineering with Python.
+- Strong experience with Django or FastAPI in production.
+- Deep PostgreSQL knowledge: schema design, indexing, query optimisation.
+- Experience building and consuming REST APIs at scale.
+- Demonstrated experience with performance optimisation and profiling.
+- Solid testing discipline including integration tests.
+- Comfortable with Docker and CI/CD pipelines.
+- Experience with Redis or a comparable caching layer.
+
+PREFERRED
+- Prior work in payments, fintech, or another regulated domain.
+- Experience decomposing a monolith into services.
+- AWS experience, particularly Lambda and S3.
+- Exposure to Kafka or another event streaming platform.
+- Experience mentoring engineers.
+
+BENEFITS
+Remote-first, annual offsite, equity, and health insurance.

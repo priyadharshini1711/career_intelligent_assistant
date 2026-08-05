@@ -1,0 +1,51 @@
+PRIYA RAMESH
+Bengaluru, India | priya.ramesh@example.com | +91 98765 43210
+linkedin.com/in/priya-ramesh-example | github.com/priya-example
+
+SUMMARY
+Backend engineer with 5 years building and operating Python services for
+high-traffic consumer products. Comfortable owning a service end to end, from
+schema design through on-call. Most recent work has been API performance and
+migrating a monolith to services.
+
+TECHNICAL SKILLS
+Languages: Python, SQL, JavaScript, Bash
+Frameworks: Django, FastAPI, Flask, REST APIs
+Data: PostgreSQL, Redis, Elasticsearch, Pandas
+Infrastructure: Docker, AWS (EC2, S3, Lambda), GitHub Actions, Linux
+Practices: Unit testing, code review, agile delivery, system design
+
+EXPERIENCE
+
+Senior Backend Engineer, Meridian Commerce - Bengaluru
+March 2022 - Present
+- Own the checkout and payments API serving 40k requests per minute at peak.
+- Cut p99 checkout latency from 1.8s to 340ms by replacing N+1 ORM access with
+  batched queries and adding a Redis read-through cache.
+- Led the extraction of the payments module out of the Django monolith into a
+  standalone FastAPI service, coordinating a phased cutover with zero downtime.
+- Designed the PostgreSQL schema and migration path for a multi-currency
+  rewrite covering 11 markets.
+- Mentor two junior engineers; run the team's weekly code review clinic.
+
+Backend Engineer, Northbridge Analytics - Pune
+July 2019 - February 2022
+- Built ingestion services in Python that processed roughly 200GB of clickstream
+  data per day into PostgreSQL and Elasticsearch.
+- Wrote the company's first integration test suite, taking coverage from
+  effectively zero to 74% and cutting production incidents noticeably.
+- Automated deployment with GitHub Actions and Docker, replacing a manual
+  release checklist that took two engineers half a day.
+- Built internal dashboards with Flask for the analytics team.
+
+PROJECTS
+Ledgerly - open-source double-entry bookkeeping API
+- FastAPI and PostgreSQL, 1.2k GitHub stars.
+- Wrote the documentation and maintained the contributor guide.
+
+EDUCATION
+B.E. Computer Science, Pune Institute of Technology, 2015 - 2019
+First class with distinction.
+
+CERTIFICATIONS
+AWS Certified Solutions Architect - Associate, 2023

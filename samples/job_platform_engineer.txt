@@ -1,0 +1,38 @@
+Job Title: Senior Platform Engineer
+Company: Tessellate Systems
+Location: Bengaluru (hybrid, 3 days in office)
+
+ABOUT THE TEAM
+Tessellate builds the infrastructure layer that our product engineering teams
+deploy onto. We are twelve engineers supporting about ninety. The platform team
+owns the deployment pipeline, the service mesh, and the observability stack.
+
+WHAT YOU'LL DO
+- Design, build and operate the Kubernetes platform that all product services
+  run on.
+- Own the CI/CD pipeline end to end and keep deploys under ten minutes.
+- Build the observability stack: metrics, structured logging, distributed
+  tracing, and the alerting that sits on top of it.
+- Write and review Terraform for our AWS estate.
+- Partner with product teams on system design reviews and production readiness.
+- Take part in a shared on-call rotation.
+
+REQUIREMENTS
+- 5+ years of backend or infrastructure engineering.
+- Strong Python or Go for tooling and automation.
+- Production experience running Kubernetes, not just deploying to it.
+- Solid Terraform and infrastructure-as-code discipline.
+- Deep AWS knowledge across compute, networking and IAM.
+- Experience with Prometheus and Grafana, or an equivalent metrics stack.
+- Comfortable with Docker, Linux and CI/CD tooling.
+- Track record of debugging production incidents under time pressure.
+
+NICE TO HAVE
+- OpenTelemetry or another distributed tracing implementation.
+- Service mesh experience (Istio, Linkerd).
+- Contributions to open-source infrastructure projects.
+- Experience mentoring engineers.
+
+WHAT WE OFFER
+Competitive salary, equity, health cover for you and dependants, and a
+generous learning budget.

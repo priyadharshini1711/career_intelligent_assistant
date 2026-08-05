@@ -1,0 +1,27 @@
+{
+  "name": "career-intelligence-assistant-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "//": "Vite is pinned to 4.5 because it is the last line that supports Node 16, which is what this was developed on. On Node 18+ you can bump to vite ^5 (or ^6) with no code changes -- nothing in this app touches Vite internals.",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^4.5.5"
+  }
+}

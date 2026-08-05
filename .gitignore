@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Node
+node_modules/
+dist/
+.vite/
+*.local
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Model + data caches
+.cache/
+data/uploads/
+*.faiss
+
+# Assignment brief - kept locally, not published to the public repo
+Assignment - AI FDE.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+/server

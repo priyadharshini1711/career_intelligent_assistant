@@ -1,0 +1,43 @@
+[project]
+name = "career-intelligence-assistant"
+version = "1.0.0"
+description = "RAG assistant that answers questions about a resume against job descriptions"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+filterwarnings = [
+    "ignore::DeprecationWarning:pkg_resources.*",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle
+    "F",    # pyflakes
+    "I",    # import sorting
+    "UP",   # pyupgrade
+    "B",    # bugbear
+    "C4",   # comprehensions
+]
+ignore = [
+    "E501",   # line length is handled by the formatter
+    "B008",   # FastAPI's Depends()/File() in defaults is the documented idiom
+    # PEP 585/604 generics. We target 3.9, where `dict[str, int]` is valid but
+    # `str | None` is not, so a codebase that mixes both reads inconsistently
+    # and invites a 3.9-invalid annotation to slip in. One convention --
+    # typing.Dict / typing.Optional throughout -- is the clearer rule here.
+    "UP006",
+    "UP035",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+
+[tool.coverage.run]
+source = ["app"]
+omit = ["*/__init__.py"]

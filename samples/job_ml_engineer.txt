@@ -1,0 +1,34 @@
+Job Title: Machine Learning Engineer, Applied AI
+Company: Verdant Labs
+Location: Bengaluru
+
+ABOUT THE ROLE
+We build retrieval-augmented products on top of large language models for
+enterprise customers. You would be the fourth engineer on the applied team.
+
+WHAT YOU'LL DO
+- Build and ship RAG pipelines: chunking, embedding, retrieval, evaluation.
+- Work with vector databases and tune retrieval quality against real queries.
+- Design prompts and guardrails for production LLM features.
+- Own the evaluation harness and the quality metrics that gate releases.
+- Deploy and monitor model-backed services.
+
+REQUIREMENTS
+- 3+ years of software engineering, with at least one year on ML or LLM
+  systems in production.
+- Strong Python.
+- Hands-on experience with large language models and prompt engineering.
+- Experience with vector databases such as Pinecone, Weaviate, Qdrant or
+  pgvector.
+- Familiarity with embedding models and retrieval evaluation.
+- Experience with PyTorch or TensorFlow.
+- Comfortable with Docker and cloud deployment.
+
+NICE TO HAVE
+- Experience with LangChain or LlamaIndex.
+- Published work, open-source contributions, or conference talks.
+- MLOps experience: model serving, monitoring, drift detection.
+- Background in NLP or information retrieval.
+
+WHAT WE OFFER
+Early-stage equity, a hardware budget, and conference travel.

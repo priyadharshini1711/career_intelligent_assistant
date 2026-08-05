@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+sentence-transformers
+transformers
+torch
+PyPDF2
+python-docx
