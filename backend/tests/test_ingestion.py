@@ -57,8 +57,14 @@ class TestNormalize:
 class TestExtract:
     def test_reads_plain_text(self):
         result = extract_text("resume.txt", RESUME_TEXT.encode(), ".txt")
-        assert "PRIYA RAMESH" in result.text
+        # Asserted against structure, not against the sample's contents. An
+        # earlier version checked for the candidate's name and broke the moment
+        # someone edited the fixture -- a test that fails when the data changes
+        # rather than when the code does is noise.
+        assert "SUMMARY" in result.text
+        assert "EXPERIENCE" in result.text
         assert result.meta["word_count"] > 100
+        assert result.meta["extractor"].startswith("text/")
 
     def test_reads_docx_including_tables(self):
         document = DocxDocument()

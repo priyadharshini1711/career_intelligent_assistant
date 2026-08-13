@@ -32,7 +32,6 @@ in your documents and cites the exact extract it came from.
 <!-- TODO: add screenshots to docs/screenshots/ and link them here -->
 
 | | |
-|---|---|
 | Fit breakdown | `docs/screenshots/fit.png` |
 | Chat with citations | `docs/screenshots/chat.png` |
 | Retrieval trace inspector | `docs/screenshots/trace.png` |
@@ -111,7 +110,7 @@ a verified-working build over a newer number I couldn't run.
 │  FastAPI                                                             │
 │  request-id middleware · typed errors · structured logs              │
 │                                                                      │
-│  ┌─ ingestion ──────────┐  ┌─ analysis (no LLM) ────────────────┐   │
+│  ┌─ ingestion ──────────┐  ┌─ analysis (no LLM)  ────────────────┐   │
 │  │ pypdf / python-docx  │  │ skill taxonomy → matched/partial/   │   │
 │  │ section detection    │  │ missing · fit score from evidence   │   │
 │  │ section-aware chunks │  └─────────────────────────────────────┘   │
@@ -123,11 +122,11 @@ a verified-working build over a newer number I couldn't run.
 │  │  guardrail → classify → retrieve → budget → prompt →           │  │
 │  │  generate → verify citations → grounding check                 │  │
 │  │                                                                │  │
-│  │  ┌────────────────┐   ┌──────────────┐   ┌──────────────────┐  │  │
-│  │  │ MiniLM (local) │   │ chunk index  │   │ LLMProvider      │  │  │
-│  │  │ embeddings     │──▶│ cosine +BM25 │   │ gemini │ groq │  │  │  │
-│  │  └────────────────┘   └──────────────┘   │ ollama │ stub   │  │  │
-│  │                                          └────────┬─────────┘  │  │
+│  │  ┌────────────────┐    ┌──────────────┐   ┌──────────────────┐ │  │
+│  │  │ MiniLM (local) │    │ chunk index  │   │ LLMProvider      │ │  │
+│  │  │ embeddings     │    | cosine +BM25 │   │ gemini │ groq    │ │  │
+│  │  └────────────────┘    └──────────────┘   │ ollama │ stub    │ │  │
+│  │                                           └──────────────────┘ │  │
 │  └───────────────────────────────────────────────────┼────────────┘  │
 │                                                      │               │
 │  Session store: in-process, TTL'd, LRU-evicted       │               │
@@ -301,6 +300,9 @@ reviewer who will not enter payment details. Gemini's free tier is *permanent*
 rather than Pro because the reasoning here is comparison and extraction over a
 context I assembled myself, not open-ended reasoning, and low latency is what
 makes chat feel usable.
+
+New Gemini accounts should use a current model such as `gemini-3.5-flash` rather
+than the now-deprecated `gemini-2.5-flash` default.
 
 | Provider | Why it's there |
 |---|---|

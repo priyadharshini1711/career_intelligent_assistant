@@ -42,7 +42,7 @@ class Settings(BaseSettings):
     llm_max_output_tokens: int = 1200
 
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.5-flash"
+    gemini_model: str = "gemini-3.5-flash"
 
     groq_api_key: str = ""
     groq_model: str = "llama-3.3-70b-versatile"

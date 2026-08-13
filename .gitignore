@@ -27,8 +27,13 @@ dist/
 data/uploads/
 *.faiss
 
-# Assignment brief - kept locally, not published to the public repo
+# Kept locally, not published to the public repo.
+# Examples/ holds the assignment brief and a real resume - personal data that
+# must never reach a public repo.
 Assignment - AI FDE.docx
+INTERVIEW_PREP.md
+AZURE_PRODUCTION.md
+Examples/
 
 # OS / editor
 .DS_Store
