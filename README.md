@@ -31,11 +31,12 @@ in your documents and cites the exact extract it came from.
 
 <!-- TODO: add screenshots to docs/screenshots/ and link them here -->
 
-| | |
-| Fit breakdown | `docs/screenshots/fit.png` |
-| Chat with citations | `docs/screenshots/chat.png` |
-| Retrieval trace inspector | `docs/screenshots/trace.png` |
-| Empty state / onboarding | `docs/screenshots/onboarding.png` |
+| Screenshot | Path |
+|---|---|
+| Fit breakdown | [docs/screenshots/fit.png](docs/screenshots/fit.png) |
+| Chat with citations | [docs/screenshots/chat.png](docs/screenshots/chat.png) |
+| Retrieval trace inspector | [docs/screenshots/trace.png](docs/screenshots/trace.png) |
+| Empty state / onboarding | [docs/screenshots/onboarding.png](docs/screenshots/onboarding.png) |
 
 ---
 
